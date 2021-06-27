@@ -56,7 +56,7 @@ function findMean(nums) {
 
 function findMedian(nums) {
 
-    nums.sort((a,b) => a - b)
+    nums.sort((a,b) => a - b);
 
     let middleIdx = Math.floor(nums.length / 2);
     let median;
